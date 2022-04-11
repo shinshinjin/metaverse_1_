@@ -156,17 +156,17 @@ int main()
 	std::string testString = "Hello";
 }
 */
-
-/*#include <iostream>
+/*
+#include <iostream>
 #include <cstdlib>
 #include <ctime>
 
-void main()
+int main(void)
 {
 
 	srand((unsigned int)time(NULL)); 
 
-	printf("랜덤숫자 : %d\n", rand() % 10 );
+	cout << "랜덤숫자 : " << rand() % 10 
 	 
 
 }
@@ -205,8 +205,8 @@ int main(void)
 
 	cout << " rand : " << rand() % (a-b-1) + b;
 
-}
-*/
+
+*//*
 {
 	int a = 0;
 	int b = 0;
@@ -218,4 +218,4 @@ int main(void)
 	cin >> b;
 	(a == b) ? cout << "true" << endl : cout << "false" << endl;
 }
-
+*/
