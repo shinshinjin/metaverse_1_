@@ -213,9 +213,46 @@ int main()
 		1
 		2
 		4
-		8
+		8실습4.
+		구구단을 출력해보자.
+		4_1. 구구단 2단을 차례대로 출력해보자.
+		2 * 1 = 2
+		2 * 2 = 4
+		2 * 3 = 6
+		2 * 4 = 8
+		2 * 5 = 10
+		2 * 6 = 12
+		2 * 7 = 14
+		2 * 8 = 16
+		2 * 9 = 18
+
+		4_2. 구구단 2단 ~ 9단을 차례대로 출력해보자.
+		2단
+
+		3단
+
+		...
+
+		9단
+
+		4_3. 구구단 2단 ~ 9단을 다음과 같은 형태로 출력해 보자.
+		2단 3단 4단
+
+		5단 6단 7단
+
+		8단 9단
 		...
 		512
+
+
+		별찍기
+		1)
+		*
+		**
+		***
+		****
+		*****
+
 
 
 	*/
@@ -455,8 +492,168 @@ int main()
 	}
 }
 */
+//실습3.
+/*
 	for (int i = 1; i < 1000; i *= 2)
 	{
 		cout << i << endl;
 	}
+}
+*/
+/*
+cout << "구구단 2단을 차례대로 출력해보자.\n" << endl;
+
+	for (int i = 1; i < 10; i++)
+	{
+		cout << " 2 x " << i << " = " << 2 * i << endl;
+	}
+
+	cout << endl;
+
+
+	cout << "구구단 2단 ~ 9단을 차례대로 출력해보자.\n" << endl;
+
+	for (int i = 1; i < 10; i++)
+	{
+		cout << " 2 x " << i << " = " << 2 * i << endl;
+	}
+
+	cout << endl;
+
+	for (int i = 1; i < 10; i++)
+	{
+		cout << " 3 x " << i << " = " << 3 * i << endl;
+	}
+
+	cout << endl;
+
+	for (int i = 1; i < 10; i++)
+	{
+		cout << " 4 x " << i << " = " << 4 * i << endl;
+	}
+
+	cout << endl;
+
+	for (int i = 1; i < 10; i++)
+	{
+		cout << " 5 x " << i << " = " << 5 * i << endl;
+	}
+
+	cout << endl;
+
+	for (int i = 1; i < 10; i++)
+	{
+		cout << " 6 x " << i << " = " << 6 * i << endl;
+	}
+
+	cout << endl;
+
+	for (int i = 1; i < 10; i++)
+	{
+		cout << " 7 x " << i << " = " << 7 * i << endl;
+	}
+
+	cout << endl;
+
+	for (int i = 1; i < 10; i++)
+	{
+		cout << " 8 x " << i << " = " << 8 * i << endl;
+	}
+
+	cout << endl;
+
+	for (int i = 1; i < 10; i++)
+	{
+		cout << " 9 x " << i << " = " << 9 * i << endl;
+	}
+
+	cout << endl;
+
+	cout << "구구단 2단 ~ 9단을 다음과 같은 형태로 출력해 보자." << endl;
+
+	cout << endl;
+
+	for (int i = 1; i < 10; i++)
+	{
+		cout << " 2 x " << i << " = " << 2 * i << "\t" << " 3 x " << i << " = " << 3 * i << "\t" << " 4 x " << i << " = " << 4 * i << endl;
+	}
+
+	cout << endl;
+
+	for (int i = 1; i < 10; i++)
+	{
+		cout << " 5 x " << i << " = " << 5 * i << "\t" << " 6 x " << i << " = " << 6 * i << "\t" << " 7 x " << i << " = " << 7 * i << endl;
+	}
+
+	cout << endl;
+
+	for (int i = 1; i < 10; i++)
+	{
+		cout << " 8 x " << i << " = " << 2 * i << "\t" << " 9 x " << i << " = " << 9 * i << endl;
+	}
+}
+*/
+/*
+cout << "구구단" << endl << endl;
+
+	for (int i = 2; i < 9; i += 3)
+	{
+		for (int j = 1; j < 10; j++)
+		{
+			for (int k = i; k < i + 3; k++)
+			{
+				if (k > 9)
+				{
+					break;
+				}
+				cout << k << "*" << j << "=" << k * j << "\t";
+
+			}
+			cout << endl;
+		}
+		cout << endl;
+	}
+
+}
+*/
+/* 과제.1
+
+	for (int i = 0; i < 5; i++)
+	{
+		for (int j = 0; j <= i; j++)
+		{
+			cout << "*";
+
+		}	cout << "\n";
+
+	}
+*/
+//과제.3
+/*
+
+
+	for (int i = 0; i <= 5; i++)
+	{
+		for (int j = 0; j < 5 - i;j++)
+		{
+			cout << "*";
+		}
+		cout << "\n";
+	
+	}
+	
+}
+*/
+
+	for (int i = 0; i <= 5; i++)
+	{
+		for (int j = 5; j < i - 5; j--)
+		{
+			cout << "*";
+		}
+		
+		cout << "\n";
+
+	}
+
 }
