@@ -639,21 +639,240 @@ cout << "구구단" << endl << endl;
 			cout << "*";
 		}
 		cout << "\n";
-	
+
 	}
-	
+
 }
 */
-
+/*
 	for (int i = 0; i <= 5; i++)
 	{
 		for (int j = 5; j < i - 5; j--)
 		{
 			cout << "*";
 		}
-		
+
 		cout << "\n";
 
 	}
+
+}
+*/
+
+// 1)
+/*
+	for (int i = 0; i < 5; i++)
+	{
+		for (int j = 0; j < i+1; j++)
+		{
+			cout << "*";
+		}
+		cout << "\n";
+	}
+	cout << endl;
+*/
+// 2)
+/*
+	for (int i = 1; i <= 5; i++)
+	{
+		for (int k = 5 - i; k > 0; k--)
+			cout << " ";
+		for (int j = 1; j <= i; j++)
+		{
+			cout << "*";
+		}
+		cout << endl;
+	}
+*/
+// 3)
+/*
+	for (int i = 6; i > 1; i--)
+	{
+		for (int j = 0; j < i-1; j++)
+		{
+			cout << "*";
+		}
+		cout << "\n";
+	}
+	cout << endl;
+*/
+// 4)
+/*
+	for(int i = 1; i < 6; i++)
+	{
+		for (int j = 2; j <= i; j++)
+		{
+			cout << " ";
+		}
+		for (int j = 5; j >= i; j--)
+		{
+			cout << "*";
+		}
+		cout << endl;
+	}
+*/
+// 5)
+/*
+	for(int i=0; i<5; i++)
+	{
+		for (int j = 3; j >= i; j--)
+		{
+			cout << " ";
+		}
+		for (int j = 0; j <= i + i; j++)
+		{
+			cout << "*";
+		}
+		cout << endl;
+	}
+*/
+// 6)
+/*
+	for (int i = 0; i < 5; i++)
+	{
+		for (int j = 1; j <= i; j++)
+		{
+			cout << " ";
+		}
+		for (int j = 8; j >= i + i; j--)
+		{
+			cout << "*";
+		}
+		cout << endl;
+	}
+*/
+// 7)
+/*
+	for (int i = 0; i < 5; i++)
+	{
+		for (int j = 3; j >= i; j--)
+		{
+			cout << " ";
+		}
+		for (int j = 0; j <= i + i; j++)
+		{
+			cout << "*";
+		}
+		cout << endl;
+	}
+
+	for (int i = 1; i < 5; i++)
+	{
+		for (int j = 1; j <= i; j++)
+		{
+			cout << " ";
+		}
+		for (int j = 8; j >= i + i; j--)
+		{
+			cout << "*";
+		}
+		cout << endl;
+	}
+}
+*/
+// 다이아 연습
+/*
+	for (int i = 0; i < 4; i++)
+	{
+		for (int j = 5; j > i; j--)
+		{
+			cout << " ";
+		}
+		for (int j = 0; j <= i + i; j++)
+		{
+			cout << "*";
+		}
+		cout << "\n";
+	}
+
+	for (int i = 0; i < 5; i++)
+	{
+		for (int j = 0; j <= i; j++)
+		{
+			cout << " ";
+		}
+		for (int j = 8; j >= i + i; j--)
+		{
+			cout << "*";
+		}
+		cout << "\n";
+	}
+*/
+// 삼각형 층수
+/*
+	cout << "삼각형의 층수를 입력하세요. : ";
+
+
+
+
+	int input_key = 0;
+
+	cin >> input_key;
+
+	for (int i = 0; i < input_key; i++)
+	{
+		for (int j = 0; j < input_key; j++)
+		{
+			if (j < i)
+				cout << " ";
+			else
+				cout << "*";
+		}
+		cout << "\n";
+	}
+	cout << endl;
+
+	cout << " 삼각형의 층수 :" << input_key; " 층 ";
+
+	cout << endl;
+
+
+	for (int i = 0; i < input_key; i++)
+	{
+		for (int j = input_key; j > i; j--)
+		{
+			cout << " ";
+		}
+		for (int j = 0; j <= i + i; j++)
+		{
+			cout << "*";
+		}
+		cout << "\n";
+	}
+
+	cout << " 삼각형의 층수 :" << input_key; " 층 ";
+
+	cout << "\n";
+
+	cout << "\n";
+
+*/
+// 백준 모래시계 문제
+/*
+	for (int i = 0; i < 4; i++)
+	{
+		for (int j = 1; j <= i; j++)
+		{
+			cout << " ";
+		}
+		for (int j = 8; j >= i + i; j--)
+		{
+			cout << "*";
+		}
+		cout << "\n";
+	}
+	for (int i = 0; i < 5; i++)
+	{
+		for (int j = 3; j >= i; j--)
+		{
+			cout << " ";
+		}
+		for (int j = 0; j <= i + i; j++)
+		{
+			cout << "*";
+		}
+		cout << "\n";
+	}	
+*/
 
 }
