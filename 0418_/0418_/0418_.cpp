@@ -141,6 +141,10 @@ feature 라는 이름의 다른 브랜치를 만들어 원격 저장소에 push 
 	> 1. 원격에 없는 커밋을 업로드
 	> 2. 우너격 브랜치를 업데이트 
 
+	https ://learngitbranching.js.org/?locale=ko
+
+https://docs.google.com/document/d/17rxYyz455VJINstBk13HqlG42ZeiZKK0y7Fa2NkVsWE/edit#
+
 이득우의 게임수학
 
 
