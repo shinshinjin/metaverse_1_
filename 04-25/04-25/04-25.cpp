@@ -247,26 +247,26 @@ int main()
 	int MinTime;
 	int AddTime;
 
-	scanf("%d %d %d", &HourTime, &MinTime, &AddTime);
+	scanf("%d %d %d", &HourTime, &MinTime, &AddTime); //각각 시간, 분, 추가분을 입력한다.
 
-	HourTime += AddTime / 60;
+	HourTime += AddTime / 60; //시간에 추가분을 60으로 나누고, 그 값을 더해준다.
 
-	MinTime += AddTime % 60;
+	MinTime += AddTime % 60; //분에 추가분의 나머지를 더해준다.
 
-	if(MinTime >= 60)
+	if(MinTime >= 60) //분이 60보다 같거나 클 때
 	{
 
-		HourTime++;
-
-		MinTime %= 60;
+		HourTime++; //시간을 더해준다.
+		 
+		MinTime %= 60; // 분은 60을 나머지로 계산 한다.
 
 	}
 
-	if(HourTime >= 24)
+	if(HourTime >= 24) //시간이 24보다 같거나 클 때
 
-		HourTime %= 24;
+		HourTime %= 24; //시간을 24의 나머지로 계산 한다.
 
-	printf("%d %d", HourTime, MinTime);
+	printf("%d %d", HourTime, MinTime); // 시간과 분을 출력한다.
 
 	return 0;
 
@@ -321,3 +321,5 @@ int main()
 - 분기문 : 프로그램에게 여러 흐름을 제공하는 구문 
 - if / switch 
 */
+//
+//
